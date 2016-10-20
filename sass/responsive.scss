@@ -1,0 +1,85 @@
+@media (max-width: 767px) {
+    
+   .navbar-nav {
+       background-color: #545E6B;  
+       padding-top: 20px;
+       padding-bottom: 20px;
+       
+       li 
+       
+       {
+         a {
+            padding: 10px !important;  
+             color: #fff !important;
+         }
+       }
+   }
+
+.service-item-content {
+  margin-top: 10px;  
+  margin-bottom: 10px;
+}
+ .price-item {
+   margin-bottom: 20px;   
+ }
+    
+    .price-items {
+            box-shadow:  none !important;
+        -webkit-box-shadow: none !important;
+     }
+    
+    .slider .single-item .slick-next {
+      display: none !important;   
+    }
+
+}
+
+@media (max-width: 992px) { 
+    .slider {
+        padding-top: 0px;
+        min-height: 200px;
+      .image {
+        display: none;   
+      }
+    }
+.single-item {
+    text-align: center;
+    h2 {
+      margin-bottom: 15px !important;   
+    }
+  p {
+    margin: 0 auto;
+  }
+ .slick-dots {
+   text-align: center !important;
+   bottom: -50px !important;
+ }
+
+}
+    
+    .section-block {
+      padding-bottom: 0px;   
+    }
+.pricing {
+  padding-top: 50px;   
+}
+.demo .partners a img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+    .copyright {
+      margin-bottom: 15px;   
+    }
+    
+    .footer-nav {
+      ul {
+        padding-left: 0px;
+          margin-right: 20px;
+      }
+    }
+    
+    .footer .language-select {
+     text-align: left;
+    }
+
+}
